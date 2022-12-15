@@ -1,0 +1,14 @@
+streamlit
+pandas
+plotly
+seaborn
+numpy
+random
+os
+pandas_datareader
+datetime
+matplotlib.pyplot
+plotly.express
+matplotlib.ticker
+plotly.graph_objects
+PIL
