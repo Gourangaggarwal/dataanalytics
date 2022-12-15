@@ -223,6 +223,20 @@ st.header("Historical Data from the World of Crypto")
 st.pyplot(plt)
 
 
+# Links to socials
+st.sidebar.markdown('## Reach Me')
+col1, col2, col3 = st.sidebar.columns([2,2,2])
+
+with col1:
+    link = '[LinkedIn](https://www.linkedin.com/in/gourangaggarwal/)'
+    st.markdown(link, unsafe_allow_html=True)
+with col2:
+    link = '[Report](https://github.com/Gourangaggarwal/dataanalytics/blob/main/F215995-22BSP417-CW1.docx?raw=true)'
+    st.markdown(link, unsafe_allow_html=True)
+with col3:
+    link = '[GitHub](https://github.com/Gourangaggarwal/dataanalytics)'
+    st.markdown(link, unsafe_allow_html=True)
+
 
 st.header(crypto_name + " Data")
 st.write(dcrypto)
@@ -330,6 +344,7 @@ plt.title("Closing Prices of Top 4 Cryptocurrencies except BTC, ETH & USDT", fon
 plt.legend(loc='upper left')
 
 st.pyplot(plt)
+
 
 
 
